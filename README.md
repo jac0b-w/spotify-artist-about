@@ -4,7 +4,7 @@ This workaround allows you get this information and only uses the standard libra
 Grabs data from the artist about page on the spotify web player.
 
 
-artist_about(artist_id, remove_bio_tags
+artist_about(artist_id, remove_bio_tags)
 <ul>
    <li>[str]artist_id: spotify artist id</li>
    <li>[bool]remove_bio_tags: removes the hyperlink tags from the biography [default: True]</li>

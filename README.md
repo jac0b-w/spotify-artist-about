@@ -16,7 +16,7 @@ print_keys(dict) will print the keys and nested keys in a dictionary
 
 Example:
 <ul>
-   <li>external_urls<li>
+   <li>external_urls</li>
    <ul>
       <li>spotify</li>
    </ul>
@@ -64,6 +64,6 @@ Example:
       <ul>
          <li>entries</li>
       </ul>
-      </li>cities</li>
+      <li>cities</li>
    </ul>
 </li>

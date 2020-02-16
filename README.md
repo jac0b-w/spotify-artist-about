@@ -3,9 +3,13 @@ This workaround allows you get this information and only uses the standard libra
 
 Grabs data from the artist about page on the spotify web player.
 
-artist_about(artist_id, remove_bio_tags)
-   [str]artist_id: spotify artist id
-   [bool]remove_bio_tags: removes the hyperlink tags from the biography [default: True]
+<ul>
+   artist_about(artist_id, remove_bio_tags
+   <ul>
+      [str]artist_id: spotify artist id
+      [bool]remove_bio_tags: removes the hyperlink tags from the biography [default: True]
+   </ul>
+</ul>
 
 print_keys(dict) will print the keys and nested keys in a dictionary
 

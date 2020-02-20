@@ -1,5 +1,5 @@
-The spotify api doesn't requesting certain information about an artist such as an artists biography, monthly listeners, top cities and more.
-This workaround allows you get this information and only uses the standard library.
+The spotify api doesn't allow requesting certain information about an artist such as an artists biography, monthly listeners, top cities and more.
+This workaround allows you get this information and only uses the python standard library.
 
 Grabs data from the artist about page on the spotify web player.
 

@@ -1,18 +1,26 @@
-The spotify api doesn't requesting certain information about an artist such as an artists biography, monthly listeners, top cities and more.
-This workaround allows you get this information and only uses the standard library.
+The spotify api doesn't allow requesting certain information about an artist such as an artists biography, monthly listeners, top cities and more.
+This workaround allows you get this information and only uses the python standard library.
 
 Grabs data from the artist about page on the spotify web player.
 
+
 artist_about(artist_id, remove_bio_tags)
-   [str]artist_id: spotify artist id
-   [bool]remove_bio_tags: removes the hyperlink tags from the biography [default: True]
+<ul>
+   <li>[str]artist_id: spotify artist id</li>
+   <li>[bool]remove_bio_tags: removes the hyperlink tags from the biography [default: True]</li>
+</ul>
+
 
 print_keys(dict) will print the keys and nested keys in a dictionary
 
 
 Example:
 <ul>
+<<<<<<< HEAD
    <li>external_urls<li>
+=======
+   <li>external_urls</li>
+>>>>>>> abcb078caa88219f6519b1efad4d7c471c6bfe33
    <ul>
       <li>spotify</li>
    </ul>
@@ -60,6 +68,12 @@ Example:
       <ul>
          <li>entries</li>
       </ul>
+<<<<<<< HEAD
       </li>cities</li>
    </ul>
 </li>
+=======
+      <li>cities</li>
+   </ul>
+</li>
+>>>>>>> abcb078caa88219f6519b1efad4d7c471c6bfe33
